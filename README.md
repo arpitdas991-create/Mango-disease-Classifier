@@ -3,30 +3,17 @@ Mango disease classifier, using pretrained model (resnet18).
 **DATASET** : downloaded from kaggle at (https://www.kaggle.com/datasets/warcoder/mango-leaf-disease-dataset)
 
 **METRIC**:
-                  precision    recall  f1-score   support
+| Class            | Precision | Recall | F1-score |
+| ---------------- | :-------: | :----: | :------: |
+| Anthracnose      |    1.00   |  1.00  |   1.00   |
+| Bacterial Canker |    0.99   |  1.00  |   0.99   |
+| Cutting Weevil   |    1.00   |  1.00  |   1.00   |
+| Die Back         |    0.99   |  1.00  |   0.99   |
+| Gall Midge       |    1.00   |  0.97  |   0.99   |
+| Healthy          |    1.00   |  1.00  |   1.00   |
+| Powdery Mildew   |    1.00   |  1.00  |   1.00   |
+| Sooty Mould      |    1.00   |  1.00  |   1.00   |
 
-Anthracnose       1.00      1.00      1.00        67
-
-Bacterial Canker       0.99      1.00      0.99        72
-  
-  Cutting Weevil       1.00      1.00      1.00        76
-  
-  Die Back       0.99      1.00      0.99        79
-  
-  Gall Midge       1.00      0.97      0.99        77
-  
-  Healthy       1.00      1.00      1.00        67
-  
-  Powdery Mildew       1.00      1.00      1.00        94
-  
-  Sooty Mould       1.00      1.00      1.00        68
-
-  
-  accuracy                           1.00       600
-  
-  macro avg       1.00      1.00      1.00       600
-  
-  weighted avg       1.00      1.00      1.00       600
 
 **Test Accuracy** : 99.83% (599/600 correct predictions)
 
